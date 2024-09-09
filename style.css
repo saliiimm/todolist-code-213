@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px;
+}
+.header {
+  width: 95%;
+  background-color: #4d4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding-block: 30px;
+  padding-inline: 20px;
+}
+
+.myItems {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-inline: 0;
+  padding-block: 20px;
+}
+.myItems li {
+  list-style-type: none;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 15px;
+  background-color: #fff4e0;
+}
+button {
+  padding-inline: 15px;
+  padding-block: 5px;
+  border-radius: 8px;
+}
+
+.myItems .edit {
+  background-color: cadetblue;
+}
+
+.myItems .delete {
+  background-color: crimson;
+}
+
+.inputDiv {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-inline: 10px;
+  padding-block: 20px;
+  background-color: coral;
+  border-radius: 15px;
+}
+
+.inputDiv input {
+  width: 60%;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.inputDiv button {
+  background-color: green;
+}
